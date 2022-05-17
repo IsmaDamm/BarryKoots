@@ -11388,7 +11388,7 @@ hr.divider-light {
 }
 
 header.masthead {
-  padding-top: 15rem;
+  padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
   background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("img/barryspecials.jpg");
   background-position: center;
@@ -11401,10 +11401,10 @@ header.masthead h1, header.masthead .h1 {
 }
 @media (min-width: 992px) {
   header.masthead {
-    height: 110vh;
+    height: 120vh;
     min-height: 40rem;
     padding-top: 4.5rem;
-    padding-bottom: 0;
+    padding-bottom: 0rem;
   }
   header.masthead p {
     font-size: 1.15rem;
