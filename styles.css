@@ -11468,4 +11468,5 @@ aside{
   height: 50px;
   position: block;
   margin-top: -4px;
+  z-index: 100;
 }
