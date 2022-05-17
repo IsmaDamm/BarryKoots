@@ -1,2 +1,2 @@
 # BarryKoots
-Repository about barry project on leeuwarden
+Repository about barry's project on leeuwarden
