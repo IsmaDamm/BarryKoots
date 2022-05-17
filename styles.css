@@ -11461,7 +11461,7 @@ aside{
   position: fixed;
   top: 35%;
   left: -33px; 
-  z-index: 0px;
+  z-index: 100;
 }
 .social img{
   width: 50px;
