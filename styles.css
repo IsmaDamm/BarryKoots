@@ -11456,18 +11456,8 @@ header.masthead h1, header.masthead .h1 {
   opacity: 1;
 }
 
-.social img{
-  float: left;
-  width: 2vw;
-  height: 1,5vh;
-  position: block;
-  margin-top: 20px;
-  margin-right: 7px;
-  margin-left: 26px;
-}
-.link{
-  float: left;
-  text-decoration: none;
-  margin-top: 15px;
-  margin-left:  0px;
+.lin image{
+  padding-top: 15px;
+  margin-right: 25px;
+  max-width: 5px;
 }
