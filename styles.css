@@ -11464,8 +11464,8 @@ aside{
   z-index: 100;
 }
 .social img{
-  width: 50px;
-  height: 50px;
+  width: 3vw;
+  height: 6vh;
   position: block;
   margin-top: -4px;
   z-index: 100;
