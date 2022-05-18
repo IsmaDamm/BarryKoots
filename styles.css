@@ -11455,18 +11455,18 @@ header.masthead h1, header.masthead .h1 {
   opacity: 1;
 }
 
-
-aside{
-  width: 40px;
-  position: fixed;
-  top: 35%;
-  left: -33px; 
-  z-index: 100;
-}
 .social img{
-  width: 4vw;
-  height: 3,5vh;
+  float: left;
+  width: 2vw;
+  height: 1,5vh;
   position: block;
-  margin-top: -4px;
-  z-index: 100;
+  margin-top: 20px;
+  margin-right: 7px;
+  margin-left: 26px;
+}
+.link{
+  float: left;
+  text-decoration: none;
+  margin-top: 15px;
+  margin-left:  0px;
 }
