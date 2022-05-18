@@ -11455,8 +11455,16 @@ header.masthead h1, header.masthead .h1 {
   opacity: 1;
 }
 
-.lin image{
-  padding-top: 15px;
-  margin-right: 25px;
-  max-width: 5px;
+.lin img{
+  position:relative;
+  height:50px;
+  margin-top:20px;
+  width:50px;
+  left:40px;
+}
+.textnet{
+position:relative;
+text-decoration:none;
+top:60px;
+right:20px;
 }
