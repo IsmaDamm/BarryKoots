@@ -11472,6 +11472,13 @@ header.masthead h1, header.masthead .h1 {
 position:relative;
 text-decoration:none;
 top:60px;
-right:20px;
+right:25px;
+color: black;
+}
+#textinsta{
+position:relative;
+text-decoration:none;
+top:12px;
+left:170px;
 color: black;
 }
