@@ -11475,7 +11475,6 @@ top:60px;
 right:25px;
 color: black;
 }
-}
 #textinsta{
 position:relative;
 text-decoration:none;
@@ -11491,6 +11490,6 @@ font-size: 30px;
 color:gray;
 }
 .container a {
-  color: #ffcd39;
+  color: #fff;
   text-decoration: none;
 }
