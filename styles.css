@@ -11459,31 +11459,10 @@ header.masthead h1, header.masthead .h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
-
-.lin img{
-  position:relative;
-  height:50px;
-  margin-top:20px;
-  width:50px;
-  left:40px;
-  border-radius: 5px;
-}
 .textnet{
-position:relative;
 text-decoration:none;
 top:60px;
-right:25px;
 color: black;
-}
-#textinsta{
-position:relative;
-text-decoration:none;
-top:12px;
-left:170px;
-color: black;
-}
-#textinsta:hover{
-color:brown;
 }
 .bi{
 font-size: 30px; 
@@ -11493,3 +11472,4 @@ color:gray;
   color: #fff;
   text-decoration: none;
 }
+
