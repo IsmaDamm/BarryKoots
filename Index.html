@@ -291,16 +291,19 @@
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
   var btnText = document.getElementById("myBtn");
+  var area = document.getElementById("about");
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
     btnText.innerHTML = "Read more";
     moreText.style.display = "none";
+    area.style.height = "100%";
   } else {
     dots.style.display = "none";
     btnText.innerHTML = "Read less";
     moreText.style.display = "inline";
     moreText.style.visibility = "visible";
+    area.style.height = "200%";
   }
 }
     </script>
