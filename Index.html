@@ -232,7 +232,6 @@
                                     <div class="fw-bolder">Form submission successful!</div>
                                     To activate this form, sign up at
                                     <br />
-                                    <a href="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
                                 </div>
                             </div>
                             <!-- Submit error message-->
@@ -241,10 +240,10 @@
                             <!-- an error submitting the form-->
                             <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                             <!-- Submit Button-->
-                            <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit" style="background-color:#5e5e5c
-                                ;">Submit</button></div>
                         </form>
-                    </div>
+                        <div class="text-center text-md-left">
+                            <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                        </div>
                 </div>
             <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-4 text-center mb-5 mb-lg-0">
