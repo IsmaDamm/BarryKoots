@@ -11486,4 +11486,19 @@ h2.textozelfo {
 h5.textozelfo2 {
   margin-left: 5%;
   margin-right: 5%;
+  color:white;
+}
+.image6{
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("img/camins.jpg");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.image1{
+  background: linear-gradient(to bottom, rgba(0,0,0, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("img/istockphoto-641330626-170667a.jpg");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
