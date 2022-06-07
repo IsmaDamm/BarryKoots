@@ -2,10 +2,10 @@
   $nombre = $_POST['name'];
 	$email = $_POST['email'];
 	$asunto = 'Formulario Rellenado';
-	$mensaje = "Nombre: ".$nombre."<br> Email: $email<br> Mensaje:".$_POST['message'];
+	$mensaje = " Nombre: ".$nombre."\n Email:" .$email. "\n Mensaje:".$_POST['message'];
 
 
-	if(mail('abel.millan@mataro.epiaedu.cat', $asunto, $mensaje)){
+	if(mail("abel.millan@mataro.epiaedu.cat", $email."\n".$asunto, $mensaje)){
 		echo "Correo enviado";
 	}
 ?>
