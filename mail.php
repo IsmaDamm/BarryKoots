@@ -1,12 +1,10 @@
 <?php
-  if(isset( $_POST['name']))
-  $name = $_POST['name'];
-  if(isset( $_POST['email']))
-  $email = $_POST['email'];
-  if(isset( $_POST['message']))
-  $message = $_POST['message'];
+   $nombre = $_POST['name'];
+   $email = $_POST['email'];
+   $asunto = 'Formulario Rellenado';
+   $mensaje = " Nombre: ".$nombre."\n Email:" .$email. "\n Mensaje:".$_POST['message'];
 
 
-	mail("abel.millan@mataro.epiaedu.cat", $asunto, $mensaje)
-	echo "Correo enviado";
+   mail("abel.millan@mataro.epiaedu.cat", $asunto, $mensaje);
+   echo "Correo enviado";
 ?>	
