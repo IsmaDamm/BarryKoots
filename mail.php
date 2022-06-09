@@ -9,6 +9,6 @@
   $content="From: $name \n Email: $email \n Message: $message";
   $recipient = "abel.millan@mataro.epiaedu.cat";
   $mailheader = "From: $email \r\n";
-  mail($recipient, $phone, $content, $mailheader) or die("Error!");
+  mail($recipient, $content, $mailheader) or die("Error!");
   echo "Email sent!";
 ?>
