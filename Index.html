@@ -57,11 +57,11 @@
         </header>
 
         <!-- About-->
-        <section class="page-section" style="background-color:  #efab11; height: 100%;" id="about" >
+        <section class="page-section" style="background-color:  #efab11;" id="about" >
             <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8 text-center">
-                        <h2 class="text-white mt-0">About Me</h2>
+                <div class="row justify-content-md-center">
+                    <div class="col-md-6">
+                        <h2 class="text-white mt-0 text-center">About Me</h2>
                         <hr class="divider divider-light" style="background-color: #5e5e5c;" />
                         <p class="text-white-75 mb-4">Gecombineerd met mijn onderwijsachtergrond en het volgen van diverse coachopleidingen maakt mij dat tot een perfecte Koots. Intuïtief, 
                             no-nonsense en met gedegen kennis en humor kan ik je helpen dingen te doen die je misschien eigenlijk niet durft.<span id="dots">.. </span><span id="more" style="display: none;">Je komt in situaties terecht waarin je verbetering en ontwikkeling wilt creëren of een oplossing zoekt. 
@@ -69,10 +69,13 @@
                                 Ik ben een rijk mens geworden door ervaringen op mijn ontwikkelingsweg als groeikansen te zien. Deze ervaringen zitten in de 4 diensten die ik aanbied. Dit zijn onderwerpen waar ik mezelf doorheen geworsteld heb en dus ervaringsdeskundig in ben. De vruchten van dit proces neem ik mee in de begeleiding. Gecombineerd met mijn onderwijsachtergrond en het volgen van diverse coachopleidingen maakt mij dat tot een perfecte Koots. Intuïtief, no-nonsense en met gedegen kennis en humor kan ik je helpen dingen te doen die je misschien eigenlijk niet durft. 
                                 In het afgelopen decennium ben ik steeds dichter bij mijn essentie gekomen. Nu ik er ben doe ik waar ik goed in ben op mijn eigen wijze. Je kan hier kennismaken met mijn diensten en gaan kiezen voor een authentieke personal touch.
                                 Interesse? Stuur een bericht of laat het telefonisch weten en we maken een afspraak om te ontdekken of we de juiste chemie hebben. </span><span id="myBtn" onclick="myFunction()" style="font-weight: bold; font-size: 20px;cursor: pointer;color: #5e5e5c;"> Read More</span></p>
-                                
-
-                        <a class="btn btn-light btn-xl" href="#services" style="background-color: #144e62;">Get Started!</a>
                     </div>
+                    <div class="col-md-3">
+                        <div class="pt-5">
+                            <img src="img/AboutMe.jpg" class = "rounded-circle mt-5" width="350" height="450">
+                    </div>
+                    </div>
+                        <a class="btn btn-light btn-xl mt-5" href="#services" style="background-color: #144e62;">Get Started!</a>
                 </div>
             </div>
         </section>
@@ -144,7 +147,7 @@
         <!-- Book -->
         <section class="page-section bg-dark text-white" id="book">
             <div class="container px-4 px-lg-5">
-                <h2 class="mb-4 text-center" style="margin-top: -100px">My Book</h2>
+                <h2 class="pt-5 text-center" style="margin-top: -100px">My Book</h2>
                 <hr class="divider" style="background-color: #5e5e5c;" />
                <div class="row mt-6"> 
                      <div class=" col-sm-6 text-center">
@@ -197,29 +200,24 @@
                         <!-- To make this form functional, sign up at-->
                         <!-- https://startbootstrap.com/solution/contact-forms-->
                         <!-- to get an API token!-->
-                        <form method="post" action="mailto:issmaelhassouni@gmail.com?subject=subject&message=message">
+                        <form method="post" action="mail.php">
                             <!-- Name input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <input class="form-control" id="name" name="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
                                 <label for="name">Full name</label>
                                 <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                             </div>
                             <!-- Email address input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                <input class="form-control" id="email" name="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
                                 <label for="email">Email address</label>
                                 <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                                 <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                             </div>
-                            <!-- Phone number input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                <label for="phone">Phone number</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
+                         
                             <!-- Message input-->
                             <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem; resize: none;" data-sb-validations="required"></textarea>
+                                <textarea class="form-control"  name="message" type="text" placeholder="Enter your message here..." style="height: 10rem; resize: none;" data-sb-validations="required"></textarea>
                                 <label for="message">Message</label>
                                 <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                             </div>
@@ -232,7 +230,6 @@
                                     <div class="fw-bolder">Form submission successful!</div>
                                     To activate this form, sign up at
                                     <br />
-                                    <a href="mailto:issmaelhassouni@gmail.com">
                                 </div>
                             </div>
                             <!-- Submit error message-->
@@ -241,10 +238,8 @@
                             <!-- an error submitting the form-->
                             <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                             <!-- Submit Button-->
-                            <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit" style="background-color:#5e5e5c
-                                ;">Submit</button></div>
+                            <button class="btn btn-primary btn-xl" id="submitButton" type="submit">Send</button>
                         </form>
-                    </div>
                 </div>
             <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-4 text-center mb-5 mb-lg-0">
@@ -291,6 +286,7 @@
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
   var btnText = document.getElementById("myBtn");
+  var area = document.getElementById("about");
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
