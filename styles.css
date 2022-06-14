@@ -11530,3 +11530,15 @@ h5.textozelfo2 {
   background-attachment: scroll;
   background-size: cover;
 }
+
+h3.textoprivacida {
+  font-weight:normal;
+  font-size: 17px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+h2.privacid1 {
+  margin-left: 2%;
+  margin-right: 2%;
+}
