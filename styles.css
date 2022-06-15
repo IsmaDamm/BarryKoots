@@ -11534,11 +11534,13 @@ h5.textozelfo2 {
 h3.textoprivacida {
   font-weight:normal;
   font-size: 17px;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 h2.privacid1 {
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
