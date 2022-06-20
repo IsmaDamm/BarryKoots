@@ -1,16 +1,11 @@
 <?php
-  if(isset( $_POST['name']))
-  $name = $_POST['name'];
-  if(isset( $_POST['email']))
-  $email = $_POST['email'];
-  if(isset( $_POST['message']))
-  $message = $_POST['message'];
-  if(isset( $_POST['phone']))
-  $phone = $_POST['phone'];
+  $nombre = $_POST['name'];
+	$email = $_POST['email'];
+	$asunto = 'Formulario Rellenado';
+	$mensaje = "Nombre: ".$nombre."<br> Email: $email<br> Mensaje:".$_POST['message'];
 
-  $content="From: $name \n Email: $email \n Message: $message \n Phone: $phone ";
-  $recipient = "issmaelhassouni@gmail.com";
-  $mailheader = "From: $email \r\n";
-  mail($recipient, $phone, $content, $mailheader) or die("Error!");
-  echo "Email sent!";
+
+	if(mail('abel.millan@mataro.epiaedu.cat', $asunto, $mensaje)){
+		echo "Correo enviado";
+	}
 ?>
