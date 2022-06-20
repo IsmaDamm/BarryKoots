@@ -11490,9 +11490,8 @@ h5.textozelfo2 {
 }
 .image6{
   background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("img/camins.jpg");
-  background-position:center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
+  background-position: center center;
   background-size: cover;
 }
 .image1{
@@ -11503,31 +11502,27 @@ h5.textozelfo2 {
 }
 .image3{
   background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("img/football.png");
-  background-position:center;
- background-size: 400px;
-  background-attachment: scroll;
+  background-attachment: fixed;
+  background-position: center center;
   background-size: cover;
 }
 .image2{
   background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("img/verlies.jpg");
-  background-position:center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
+  background-position: center center;
   background-size: cover;
 }
 .image4{
   background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("img/reintegratie.jpg");
-  background-position:center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
+  background-position: center center;
   background-size: cover;
 }
 .image5{
   background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("img/specials.png");
-  background-position:center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover; 
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
 }
 
 h3.textoprivacida {
