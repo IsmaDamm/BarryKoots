@@ -6,9 +6,7 @@
   if(isset( $_POST['message']))
   $message = $_POST['message'];
 
-  $content="From: $name \n Email: $email \n Message: $message";
-  $recipient = "abel.millan@mataro.epiaedu.cat";
-  $mailheader = "From: $email \r\n";
-  mail($recipient, $content, $mailheader) or die("Error!");
-  echo "Email sent!";
-?>
+
+	mail("abel.millan@mataro.epiaedu.cat", $asunto, $mensaje)
+	echo "Correo enviado";
+?>	
